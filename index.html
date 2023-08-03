@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Axel Palombo • Portfolio</title>
+</head>
+<body>
+    <!--========================================== Encabezado principal ==========================================-->
+    <header>
+        <div class="contenedor-imagen">
+            <img src="./imágenes/fotito.png" class="imagen-principal" alt="fotito">
+        </div>
+        <div class="nombre-principal">
+            <h1>Axel</h1><h1>Palombo</h1>
+        </div>
+        <nav>
+            <a href="#aboutme">Sobre mí</a>
+            <a href="#experiencias">Experiencia</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <!--========================================== Sobre mí ==========================================-->
+        <div class="division-pequena" id="aboutme"></div>
+        <section>
+            <p>Soy una persona que ha recorrido diferentes ámbitos a lo largo de mis 26 años, recogiendo diversas experiencias, siempre buscando aquello que me apasiona y persiguiéndolo con todas mis ambiciones.
+            </p>
+        </section>
+        <div class="division-pequena"  id="experiencias"></div>
+        <section>
+            <!--========================================= Vida Naval =========================================-->
+            <div class="experiencias-dis">
+                <img src="./imágenes/fotitonaval.png" class="imagen" alt="Axel nautico">
+                <p>Me formé profesionalmente como Oficial de Marina Mercante, especializándome en Oficial de Puente (Bridge Officer) en la Escuela Naval durante 4 años y medio, tras egresar, y varias experiencias en distintas embarcaciones mercantes, desarrollé un carácter profesional donde se busca la perfección en toda materia, reforzando valores como la puntualidad, responsabilidad, el trabajo en equipo y capacitándome dentro del liderazgo.</p>
+            </div>
+            <div class="division-pequena"></div>
+            <!--========================================= Seguridad =========================================-->
+            <div class="experiencias-dis" id="seguridad">
+                <p>Empezando en mi reinserción laboral ingresé en el rubro de la Seguridad trabajando en Centros comerciales de Montevideo, donde logré bajar a tierra toda la preparación que obtuve anteriormente en diferentes materias.</p>
+                <div>
+                    <p>También comencé a destacar en mi trabajo gracias a las Competencias Transversales que fui adquiriendo a lo largo de los últimos años, pude notar que las personas que me rodeaban no contaban con ellas y se veían muy limitadas a la hora de trabajar.</p>
+                    <img src="./imágenes/guardia-de-seguridad.webp" class="imagen" alt="guardia-de-seguridad">
+                </div>
+                <p>Luego de obtener un poco de experiencia en el rubro, añadí la informática que es una de mis pasiones desde pequeño y comencé a trabajar como operador de CCTV, realizando vigilancia a través de cámaras.
+                Este fue un pequeño paso en lo que fue trabajar con lo que me gusta/apasiona, pero al poco tiempo me di cuenta que no era suficiente, y debía seguir caminando por el camino de la informática.
+                </p>
+
+            </div>
+            <div class="division-pequena"></div>
+            <!--======================================== Entrenador de LoL ========================================-->
+            <div class="experiencias-dis">
+                <img src="./imágenes/willicono.jpg"  class="imagen"alt="willover">
+                <div>
+                    <p>En mi camino buscando lo que me apasiona, también me acerqué a la escena de los videojuegos, soy una persona muy competitiva y decidí competir en League of Legends, donde descubrí que podía influenciar mucho a las personas en el rol de Entrenador</p>
+                    <hr>
+                    <p>No tardó mucho para que entrara en las competiciones profesionales, competí en las ligas de Perú, Ecuador, Argentina y Chile, consiguiendo cada vez más experiencia trabajando en equipos y enfrentándome a los mejores de la región. Hoy día me estoy alejando de la escena lentamente, pero fue una de mis pasiones y espero algún día volver a competir en lo más alto de la región</p>
+                </div>
+            </div>
+            <div class="division-pequena"></div>
+        </section>
+        <div class="division-pequena" id="contacto"></div>
+        <!--========================================== Formulario ==========================================-->
+        <form action="">
+            <div class="contenedor-formulario">
+                <p>¡Ponte en contacto conmigo!</p>
+                <fieldset>Nombre<input type="text"></fieldset>
+                <fieldset>Asunto<input type="text"></fieldset>
+                <fieldset>Mensaje<hr><textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Me gustaría ponerme en contacto contigo por..."></textarea></fieldset>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <!--========================================== Footer ==========================================-->
+    <footer>
+        <div class="contenedor-footer">
+            <h3>Mis redes</h3>
+            <div class="contenedor-iconos">
+                <a href="https://www.instagram.com/axelpalombowo/" target="_blank"><img src="./imágenes/instagram-png.png" class="icono" alt="instagram"></a>
+                <a href="https://twitter.com/Wheel_Over1" target="_blank"><img id="twitter" src="./imágenes/580b57fcd9996e24bc43c53e.png"  class="icono" alt="twitter"></a>
+                <a href="https://github.com/AxelPalWO" target="_blank"><img src="./imágenes/github.png"  class="icono" alt="github"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
