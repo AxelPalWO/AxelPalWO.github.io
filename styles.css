@@ -1,7 +1,7 @@
 body{
     width:100%;
     min-width:50%;
-    font-size:18px;
+    font-size:15px;
     background: #0F1C30;
     margin:0 0;
     color:#668DC0;
@@ -36,7 +36,7 @@ nav{
     align-items:center;
 }
 nav a{
-    margin:0 30px;
+    margin:0 1vw;
     text-decoration: none;
     color:#668DC0;
 }
@@ -47,7 +47,7 @@ nav a:active{
     width:fit-content;
     height:15vh;
     border-radius:15px;
-    padding-top:10px;
+    padding-top:1vh;
 }
 /* ======================================== Estilos Cuerpo Principal MAIN =============================================*/
 main {
@@ -58,7 +58,7 @@ main .experiencias-dis{
     display:flex;
     justify-content:space-evenly;
     align-items:center;
-    margin: 5px 50px;
+    margin: 0.5vh 1.8vw;
 }
 section:first-of-type{
     margin-top:10vh;
@@ -74,16 +74,16 @@ section:first-of-type{
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom:20px;
+    margin-bottom:3vh;
 }
 #seguridad>div>.imagen{
-    width:400px;
+    width:20vw;
 }
 main p {
-    margin:0 75px;
+    margin:0 4vw;
 }
 .imagen{
-    width:300px;
+    width:16vw;
     border-radius:10px;
     border:2px solid #C0D0EF;
 }
@@ -95,14 +95,14 @@ form {
     justify-content:center;
     align-items: center;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 5vh;
 }
 .contenedor-formulario{
     width:50%;
     min-width:45%;
     margin:0 auto;
-    padding-top:75px;
-    padding-bottom:75px;
+    padding-top:7vh;
+    padding-bottom:5vh;
     border:3px solid #C0D0EF;
 }
 /*#C2G6CE*/
@@ -110,9 +110,9 @@ fieldset {
     border:none;
 }
 form input, form textarea {
-    margin-left: 20px;
-    margin-right:20px;
-    margin-top: 20px;
+    margin-left: 2vw;
+    margin-right:2vw;
+    margin-top: 3vh;
     font-size:1.5rem;
     background-color: #C2C6CE;
     color:#0F1C30;
@@ -123,7 +123,7 @@ form textarea{
 }
 form div p {
     font-size: 3rem;
-    margin-bottom:50px;
+    margin-bottom:5vh;
 }
 button{
     background-color:#668DC0;
@@ -132,7 +132,7 @@ button{
     height:7vh;
     font-size:2.5rem;
     color:#0F1C30;
-    margin:20px auto;
+    margin:2vh auto;
 }
 button:active{
     transition-duration: 1s;
@@ -157,12 +157,12 @@ footer .contenedor-iconos{
     justify-content:center;
 }
 footer a{
-    width:100px;
-    margin:0 20px;
+    width:7vw;
+    margin:0 1vw;
 }
 footer .icono {
     width:100%;
-    margin:0 10px;
+    margin:0 1vw;
 }
 /* ======================================== Divisiones internas =============================================*/
 .division-pequena{
