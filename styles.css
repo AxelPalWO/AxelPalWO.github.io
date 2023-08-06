@@ -110,6 +110,8 @@ fieldset {
     border:none;
 }
 form input, form textarea {
+    width:20vw;
+    height:2rem;
     margin-left: 2vw;
     margin-right:2vw;
     margin-top: 3vh;
