@@ -1,12 +1,18 @@
 html {
     font-size:0.8vw;
 }
+:root{
+    --principal-oscuro:#0F1C30;
+    --principal-claro:#668DC0;
+    --secundario-oscuro:#304A6E;
+    --secundario-claro:#C0D0EF;
+}
 body{
     width:100%;
     min-width:50%;
-    background: #0F1C30;
+    background: var(--principal-oscuro);
     margin:0 0;
-    color:#668DC0;
+    color:var(--principal-claro);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 /* ====================================== Estilos Encabezado Principal ===========================================*/
@@ -18,9 +24,9 @@ header{
     width:100%;
     min-width:100%;
     height:15vh;
-    background-color:#304A6E;
+    background-color:var(--secundario-oscuro);
     font-size:2rem;
-    border-bottom:2px solid #C0D0EF;
+    border-bottom:2px solid var(--secundario-claro);
 }
 header .nombre-principal{
     display:flex;
@@ -29,7 +35,7 @@ header div h1{
     font-size:4rem;
 }
 h1::first-letter{
-    color:#C2C6CE;
+    color:var(--secundario-claro);
     font-size:5.5rem;
 }
 nav{
@@ -40,10 +46,10 @@ nav{
 nav a{
     margin:0 1vw;
     text-decoration: none;
-    color:#668DC0;
+    color:var(--principal-claro);
 }
 nav a, a:active{
-    color:#C2C6CE;
+    color:var(--secundario-claro);
 }
 .imagen-principal{
     width:fit-content;
@@ -68,6 +74,15 @@ section:first-of-type{
     margin-right:10%;
     font-size: 2.5rem;
 }
+#portfolio{
+    margin-top:10vh;
+    width:40vw;
+    height:5vw;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
 #seguridad{
     display:flex;
     flex-direction: column;
@@ -87,7 +102,7 @@ main p {
 .imagen{
     width:16vw;
     border-radius:10px;
-    border:2px solid #C0D0EF;
+    border:2px solid var(--secundario-claro);
 }
 /* ======================================== Estilos Formulario =============================================*/
 form {
@@ -105,7 +120,7 @@ form {
     margin:0 auto;
     padding-top:7vh;
     padding-bottom:5vh;
-    border:3px solid #C0D0EF;
+    border:3px solid var(--secundario-claro);
 }
 /*#C2G6CE*/
 fieldset {
@@ -118,8 +133,8 @@ form input, form textarea {
     margin-right:2vw;
     margin-top: 3vh;
     font-size:1.5rem;
-    background-color: #C2C6CE;
-    color:#0F1C30;
+    background-color: var(--secundario-claro);
+    color:var(--principal-oscuro);
 }
 form textarea{
     width:75%;
@@ -130,25 +145,27 @@ form div p {
     margin-bottom:5vh;
 }
 button{
-    background-color:#668DC0;
+    background-color:var(--principal-claro);
     border:none;
     width:70%;
     height:7vh;
     font-size:2.5rem;
-    color:#0F1C30;
+    color:var(--principal-oscuro);
     margin:2vh auto;
+    border-radius:10px;
 }
-button:active{
+button:hover, button:active{
     transition-duration: 1s;
-    color:#C0D0EF;
-    background-color: #304A6E;
+    color:var(--secundario-claro);
+    background-color: var(--secundario-oscuro);
+    border: 0.5px solid var(--secundario-claro);
 }
 hr{
     border:none;
 }
 /* ======================================== Estilos Footer =============================================*/
 footer{
-    background:#304A6E;
+    background:var(--principal-claro);
     display:flex;
     justify-content:center;
     align-items:center;
@@ -156,7 +173,7 @@ footer{
     height:25vh;
     font-size:2.5rem;
     text-align:center;
-    border-top:2px solid #C0D0EF;
+    border-top:2px solid var(--secundario-claro);
 }
 footer .contenedor-iconos{
     display:flex;
@@ -173,9 +190,31 @@ footer .icono {
 /* ======================================== Divisiones internas =============================================*/
 .division-pequena{
     width:100%;
-    height:25vh;
+    height:20vh;
 }
 .division-media{
     width:100%;
     height:40vh;
+}
+/* ======================================== PORTFOLIO STYLES ================================================*/
+.container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.caja{
+    width:25vw;
+    height:30vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.marco{
+    width:23vw;
+    height:35vh;
+    overflow:hidden;
+}
+h2{
+    font-size:5rem;
 }
