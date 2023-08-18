@@ -11,6 +11,6 @@ button.addEventListener("change",function(e){
         rootstyles.setProperty("--principal-oscuro","#0F1C30");
         rootstyles.setProperty("--principal-claro","#668DC0");
         rootstyles.setProperty("--secundario-oscuro","#304A6E");
-        rootstyles.setProperty("--secundario-claro","C0D0EF");
+        rootstyles.setProperty("--secundario-claro","#C0D0EF");
     }
 })
